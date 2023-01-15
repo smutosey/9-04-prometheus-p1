@@ -1,12 +1,10 @@
 # Домашнее задание к занятию "`9.4. Prometheus`" - `Александр Недорезов`
 
 ---
----
 
 Для выполнения заданий 1-4 написал [Vagrantfile](https://github.com/smutosey/9-04-prometheus-p1/blob/main/Vagrantfile) 
 и файл provision [config.sh](https://github.com/smutosey/9-04-prometheus-p1/blob/main/config.sh)
 
----
 ---
 
 
