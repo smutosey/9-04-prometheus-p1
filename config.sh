@@ -67,7 +67,7 @@ ExecReload=/bin/kill -HUP $MAINPID Restart=on-failure
 WantedBy=multi-user.target
 EOF
 chown -R prometheus:prometheus /var/lib/prometheus
-sed -i -e "/targets/s/'localhost:9090'/'localhost:9090',$6:9100,$7:9100/g" /etc/prometheus/prometheus.yml
+sed -i "s/\"localhost:9090\"/\"localhost:9090\",\"$6:9100\",\"$7:9100\"/g" /etc/prometheus/prometheus.yml && echo "prometheus.yml configured"
 sudo systemctl enable prometheus
 sudo systemctl start prometheus
 sudo systemctl status prometheus

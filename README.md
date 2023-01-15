@@ -1,6 +1,14 @@
 # Домашнее задание к занятию "`9.4. Prometheus`" - `Александр Недорезов`
 
 ---
+---
+
+Для выполнения заданий 1-4 написал [Vagrantfile](https://github.com/smutosey/9-04-prometheus-p1/blob/main/Vagrantfile) 
+и файл povision [config.sh](https://github.com/smutosey/9-04-prometheus-p1/blob/main/config.sh)
+
+---
+---
+
 
 ### Задание 1
 
@@ -10,7 +18,7 @@
 
 ### Ответ
 
-
+![img](https://github.com/smutosey/9-04-prometheus-p1/blob/main/img/01-1.png)
 
 ---
 
@@ -22,7 +30,7 @@
 
 ### Ответ
 
-
+![img](https://github.com/smutosey/9-04-prometheus-p1/blob/main/img/02-1.png)
 
 ---
 
@@ -34,7 +42,11 @@
 
 ### Ответ
 
+Status > Configuration:
+![img](https://github.com/smutosey/9-04-prometheus-p1/blob/main/img/03-1.png)
 
+Status > Targets
+![img](https://github.com/smutosey/9-04-prometheus-p1/blob/main/img/03-2.png)
 
 ---
 
@@ -58,3 +70,5 @@
 Приложите скриншот дашборда (ID:1860) с поступающими туда данными из Node Exporter.
 
 ### Ответ
+
+![image](https://github.com/smutosey/9-04-prometheus-p1/blob/main/img/05-1.png)
