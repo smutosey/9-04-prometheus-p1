@@ -4,7 +4,7 @@
 ---
 
 Для выполнения заданий 1-4 написал [Vagrantfile](https://github.com/smutosey/9-04-prometheus-p1/blob/main/Vagrantfile) 
-и файл povision [config.sh](https://github.com/smutosey/9-04-prometheus-p1/blob/main/config.sh)
+и файл provision [config.sh](https://github.com/smutosey/9-04-prometheus-p1/blob/main/config.sh)
 
 ---
 ---
